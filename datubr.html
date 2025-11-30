@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <head>
+        <title>Datu's Bedroom</title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+
+    <body>
+
+        <audio autoplay loop src="assets\audio\amb.mp3">
+        </audio>
+
+        <audio autoplay>
+            <source src="assets\audio\fsL.mp3">
+        </audio>
+
+                <audio id="kids" autoplay loop>
+            <source src="assets\audio\kids_amb.mp3">
+        </audio>
+
+        <p class="roomtl">Datu's Bedroom</p>
+        <img src="assets\images\room1.png" class="roomd">
+
+        <p class="roomdesc">A cozy room made for Datu.</p>
+        
+        <section class="chb1">
+        <div>
+            <a href="2ndfhallway.html">
+        <p class="ch">[Exit Room]</p>
+        </a>
+        </div>
+        <div></div>
+        <div>
+                <a href="windowview.html">
+        <p class="ch">[Check Window]</p>
+        </a>
+        </div>
+        </section>
+
+        <script>
+
+            const audio = document.getElementById('kids')
+            audio.volume = 0.5;
+
+        </script>
+
+       </body>
+</html>

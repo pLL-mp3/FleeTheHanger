@@ -1,0 +1,1261 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* 
+
+    useful stuff
+
+    .btn2 {
+        opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.btn2:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+    
+
+*/
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: PO;
+    src: url('assets/fonts/pixel_operator/PixelOperator.ttf');
+}
+
+@font-face {
+    font-family: POB;
+    src: url('assets/fonts/pixel_operator/PixelOperator-Bold.ttf');
+}
+
+@font-face {
+    font-family: UT;
+    src: url('assets/fonts/Undertale-Logo-Font/MonsterFriendBack.otf');
+}
+
+@keyframes opa {
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+}
+
+@keyframes shaku {
+    0% {transform: translateX(0);}
+    25% {transform: translateX(-1px);}
+    50% {transform: translateX(1px);}
+    75% {transform: translateX(-1px);}
+    100% {transform: translateX(0);}
+}
+
+.titleimg {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
+    height: auto;
+}
+
+/* credits */
+
+.plltl {
+    text-align: center;
+}
+
+.pllic {
+    display: flex;
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.plld {
+    text-align: center;
+}
+
+.sentl {
+    text-align: center;
+}
+
+.senic {
+    display: flex;
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.send {
+    text-align: center;
+}
+
+.vontl {
+    text-align: center;
+}
+
+.vonic {
+    display: flex;
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.vond {
+    text-align: center;
+}
+
+.cntrtl {
+    font-family: UT;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.cntrd {
+    text-align: center;
+}
+
+.bruh {
+    text-align: center;
+    color: green;
+}
+
+.btn1 {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    transition: transform 0.25s ease-out 0s;
+}
+
+.btn1:hover {
+    transform: scale(102.5%);
+}
+
+.btn02 {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    transition: transform 0.25s ease-out 0s;
+}
+
+.btn02:hover {
+    transform: scale(102.5%);
+}
+
+p {
+    font-family: PO;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.warn {
+    display: block;
+
+}
+
+.ct1 {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s;
+}
+
+.dialog1 {
+    font-family: PO;
+    animation: opa 2s;
+
+}
+
+.btn2 {
+        opacity: 60%;
+    transition: opacity 0.5s ease-out;
+}
+
+.btn2:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.ct2 {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 3s ease-out 0s 1;
+}
+
+.dialog2 {
+    font-family: PO;
+    color: red;
+    animation: opa 3s, shaku 0.3s infinite;
+
+}
+
+.dialog3 {
+    font-family: PO;
+    color: red;
+    animation: opa 9s, shaku 0.2s infinite;
+
+}
+
+.dialog4 {
+    font-family: POB;
+    color: red;
+    animation: opa 15s, shaku 0.1s infinite;
+
+}
+
+.btn3 {
+        opacity: 60%;
+    transition: opacity 0.5s ease-out;
+}
+
+.btn3:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.ct3 {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s;
+}
+
+.dialog5 {
+    font-family: PO;
+    animation: opa 2s;
+
+}
+
+.dialog6 {
+    font-family: PO;
+    animation: opa 3s, shaku 0.1s infinite;
+
+}
+
+.dialog7 {
+    font-family: PO;
+    animation: opa 4s;
+
+}
+
+.btn4 {
+        opacity: 60%;
+    transition: opacity 0.5s ease-out;
+}
+
+.btn4:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.ct4 {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s;
+}
+
+.mum01 {
+    font-family: PO;
+    animation: opa 3s, shaku 0.1s infinite;
+    color: crimson;
+}
+
+.mum02 {
+    font-family: PO;
+    animation: opa 15s;
+}
+
+.omg1 {
+    display: grid;
+    place-items: center;
+    margin-top: 17%;
+}
+
+.btn5 {
+        opacity: 60%;
+    transition: opacity 0.5s ease-out;
+}
+
+.btn5:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.intro {
+    font-family: UT;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.introsub {
+    font-family: PO;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+.introbtn {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.introbtn:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.act1 {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 10s, shaku 0.1s infinite;
+}
+
+.act1tA {
+    font-family: PO;
+    animation: opa 15s;
+    text-align: center;
+}
+
+.act1tB {
+    font-family: PO;
+    animation: opa 20s;
+    text-align: center;
+}
+
+.act1btn {
+    text-align: center;
+        opacity: 25%;
+    transition: opacity 0.5s ease-out;
+}
+
+.act1btn:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.act1a {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 5s;
+}
+
+.act1tC {
+    font-family: PO;
+    animation: opa 7s;
+    text-align: center;
+}
+
+.act1tD {
+    font-family: PO;
+    animation: opa 10s;
+    text-align: center;
+}
+
+.act1tE {
+    font-family: PO;
+    animation: opa 13s, shaku 0.15s infinite;
+    text-align: center;
+}
+
+.act1btn2 {
+    text-align: center;
+        opacity: 25%;
+    transition: opacity 0.5s ease-out;
+}
+
+.act1btn2:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.act1b {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 5s;
+}
+
+.act1tF {
+    font-family: PO;
+    animation: opa 7s;
+    text-align: center;
+}
+
+.act1tG {
+    font-family: PO;
+    animation: opa 9s;
+    text-align: center;
+    color: yellow;
+}
+
+.act1tH {
+    font-family: PO;
+    animation: opa 11s;
+    text-align: center;
+    color: gray;
+}
+
+.act1btn3 {
+    font-family: POB;
+    text-align: center;
+        opacity: 25%;
+    transition: opacity 0.5s ease-out;
+}
+
+.act1btn3:hover {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+.act1c {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.25s;
+}
+
+.act1tI {
+    font-family: PO;
+    animation: opa 1s;
+    text-align: center;
+    color: white;
+}
+
+.act1btn4 {
+    text-align: center;
+    transform: scale(100%);
+    opacity: 25%;
+    transition: opacity 0.5s ease-out, transform 1s;
+}
+
+.act1btn4:hover {
+    transform: scale(150%);
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+}
+
+/* gameplay */
+
+.roomtl {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.roomd {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.1s 6;
+}
+
+.roomdesc {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.chb1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.ch {
+    color: grey;
+    animation: opa 2s;
+}
+
+.ch:hover {
+    color: white;
+}
+
+.H2 {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.1s 6;
+}
+
+.H2tl {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.h2desc {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.H1 {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.1s 6;
+}
+
+.h1tl {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.h1desc {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.kit {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.1s 6;
+}
+
+.ktl {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.kdesc {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.kdesc2 {
+    text-align: center;
+    animation: opa 2s;
+}
+
+.kdesc3 {
+    text-align: center;
+    animation: opa 3s;
+}
+
+.scl {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 3s, shaku 0.1s 100;
+}
+
+.scltl {
+    text-align: center;
+    animation: opa 1.5s;
+}
+
+.scldesc {
+    text-align: center;
+    animation: opa 2s, shaku 0.1s 15;
+}
+
+.scldesc2 {
+    text-align: center;
+    animation: opa 4s, shaku 0.1s 30;
+    color: red;
+}
+
+.window {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.1s 6;
+}
+
+.wtl {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.wdesc {
+    text-align: center;
+    animation: opa 1s;
+    color: slategray;
+}
+
+.wdesc2 {
+    text-align: center;
+    animation: opa 1s, shaku 0.25s infinite;
+    color: #1C1C1C;
+}
+
+.fr {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.06s infinite;
+}
+
+.frB {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.1s 6;
+}
+
+.frtl {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.frdesc {
+    text-align: center;
+    animation: opa 2s;
+
+}
+
+.frdesc2 {
+    text-align: center;
+    animation: opa 3s;
+}
+
+.ctt1 {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.conb {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.conb:hover {
+    opacity: 1;
+    color: red;
+    transition: opacity 1s, color 0.5s;
+}
+
+.conc {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.conc:hover {
+    opacity: 1;
+    color: darkblue;
+    transition: opacity 1s, color 0.5s;
+}
+
+.enA {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.frwmom {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 0.5s, shaku 0.1s 6;
+}
+
+.frwmomtl {
+    text-align: center;
+    animation: opa 1s;
+}
+
+.frwmomdesc {
+    text-align: center;
+    animation: opa 2s;
+    color: orangered;
+}
+
+.frwmomdesc2 {
+    text-align: center;
+    animation: opa 3s;
+}
+
+.frwmomdesc3 {
+    text-align: center;
+    animation: opa 3s;
+}
+
+.frwmomex {
+    text-align: center;
+    color: grey;
+    animation: opa 2s;
+}
+
+.frwmomex:hover {
+    color: white;
+}
+
+.frwmomdescA {
+    text-align: center;
+    animation: opa 2s;
+    color: red;
+
+}
+
+/* ending 1 */
+
+.ED1tl {
+    text-align: center;
+    animation: opa 6s;
+}
+
+.ED1desc {
+    text-align: center;
+    animation: opa 7s;
+}
+
+.EDa {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 5s, shaku 0.1s 50;
+}
+
+.edbtn {
+    text-align: center;
+    color: grey;
+    animation: opa 10s;
+}
+
+.edbtn:hover {
+    color: white;
+}
+
+.EDb {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 20s, shaku 0.1s 70;
+}
+
+.EDc {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.3s 6;
+}
+
+.ending1 {
+    font-family: UT;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.ending1tl {
+    font-family: PO;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+/* ending 2 */
+
+.mothertl {
+    text-align: center;
+    animation: opa 6s;
+}
+
+.motherdesc {
+    text-align: center;
+    animation: opa 7s;
+}
+
+.motherA {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 5s, shaku 0.1s 50;
+}
+
+.mbtn {
+    text-align: center;
+    color: grey;
+    animation: opa 10s;
+}
+
+.mbtn:hover {
+    color: white;
+}
+
+.mother2tl {
+    text-align: center;
+    animation: opa 6s;
+}
+
+.mother2desc {
+    text-align: center;
+    animation: opa 8s;
+}
+
+.mother3desc {
+    text-align: center;
+    animation: opa 9s;
+}
+
+.mother4desc {
+    text-align: center;
+    animation: opa 10s;
+}
+
+.motherB {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 5s, shaku 0.1s 50;
+}
+
+.mbtn2 {
+    text-align: center;
+    color: grey;
+    animation: opa 10s;
+}
+
+.mbtn2:hover {
+    color: white;
+}
+
+.mother3tl {
+    text-align: center;
+    animation: opa 6s;
+}
+
+.mother5desc {
+    text-align: center;
+    animation: opa 8s;
+}
+
+.motherC {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 50;
+}
+
+.mbtn3 {
+    text-align: center;
+    color: grey;
+    animation: opa 10s;
+}
+
+.mbtn3:hover {
+    color: white;
+}
+
+.mother4tl {
+    text-align: center;
+    animation: opa 6s, shaku 0.07s infinite;
+    color: red;
+}
+
+.mother6desc {
+    text-align: center;
+    animation: opa 8s;
+}
+
+.motherD {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 30s, shaku 0.07s infinite;
+}
+
+.mbtn4 {
+    text-align: center;
+    color: grey;
+    animation: opa 5s;
+}
+
+.mbtn4:hover {
+    color: white;
+}
+
+.botxt {
+    font-family: PO;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.ed2btn {
+    text-align: center;
+    color: grey;
+    animation: opa 5s;
+}
+
+.ed2btn:hover {
+    color: white;
+}
+
+.mother5tl {
+    text-align: center;
+    animation: opa 2s;
+    color: rgb(122, 255, 122);
+}
+
+.mother7desc {
+    text-align: center;
+    animation: opa 6s;
+    color: rgb(122, 255, 122);
+}
+
+.mother8desc {
+    text-align: center;
+    animation: opa 7s;
+    color: rgb(122, 255, 122);
+}
+
+.motherE {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 6;
+}
+
+.mbtn5 {
+    text-align: center;
+    color: grey;
+    animation: opa 8s;
+}
+
+.mbtn5:hover {
+    color: yellow;
+}
+
+/* ending 3 */
+
+.sneaky1tl {
+    text-align: center;
+    animation: opa 2s;
+}
+
+.sneaky1desc {
+    text-align: center;
+    animation: opa 3s;
+    color: darksalmon;
+}
+
+.sneakyA {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 6;
+}
+
+.sbtn1 {
+    text-align: center;
+    color: grey;
+    animation: opa 4s;
+}
+
+.sbtn1:hover {
+    color: white;
+}
+
+.sneaky2tl {
+    text-align: center;
+    animation: opa 2s;
+    color: yellow;
+}
+
+.sneaky2desc {
+    text-align: center;
+    animation: opa 3s;
+    color: yellow;
+}
+
+.sneakyB {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 6;
+}
+
+.sbtn2 {
+    text-align: center;
+    color: grey;
+    animation: opa 4s;
+}
+
+.sbtn2:hover {
+    color: cyan;
+}
+
+.sneaky3tl {
+    text-align: center;
+    animation: opa 2s;
+    color: rgb(250, 178, 24);
+}
+
+.sneaky3desc {
+    text-align: center;
+    animation: opa 3s;
+    color: rgb(250, 178, 24);
+}
+
+.sneakyC {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 12;
+}
+
+.sbtn3 {
+    text-align: center;
+    color: grey;
+    animation: opa 4s;
+}
+
+.sbtn3:hover {
+    color: cyan;
+}
+
+.sneakyed1 {
+    text-align: center;
+    margin-top: 25%;
+}
+
+.sbtn4 {
+    text-align: center;
+    color: grey;
+    animation: opa 10s;
+}
+
+.sbtn4:hover {
+    color: rgb(255, 81, 0);
+}
+
+.sneaky4tl {
+    text-align: center;
+    animation: opa 2s;
+    color: grey;
+}
+
+.sneaky4desc {
+    text-align: center;
+    animation: opa 3s;
+    color: rgb(251, 255, 0);
+}
+
+.sneakyD {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 12;
+}
+
+.sbtn5 {
+    text-align: center;
+    color: grey;
+    animation: opa 4s;
+}
+
+.sbtn5:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* ending 4 */
+
+.studytl {
+    text-align: center;
+    animation: opa 2s;
+    color: yellow;
+    text-shadow: 0 0 3px yellow ;
+}
+
+.studydesc {
+    text-align: center;
+    animation: opa 3s;
+    color: lightgray;
+}
+
+.studydesc2 {
+    text-align: center;
+    animation: opa 3s;
+    color: lightgray;
+}
+
+.studydesc3 {
+    text-align: center;
+    animation: opa 3s;
+    color: white;
+    text-shadow: 0 0 3px;
+}
+
+.studyA {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 6;
+}
+
+.studbtn {
+    text-align: center;
+    color: grey;
+    animation: opa 4s;
+}
+
+.studbtn:hover {
+    color: white;
+}
+
+.study2tl {
+    text-align: center;
+    animation: opa 2s;
+    color: yellow;
+    text-shadow: 0 0 6px yellow ;
+}
+
+.studydesc4 {
+    text-align: center;
+    animation: opa 3s;
+    color: lightgray;
+}
+
+.studydesc5 {
+    text-align: center;
+    animation: opa 3s;
+    color: lightgray;
+}
+
+.studydesc6 {
+    text-align: center;
+    animation: opa 3s;
+    color: white;
+    text-shadow: 0 0 6px;
+}
+
+.studyB {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 6;
+}
+
+.stud2btn {
+    text-align: center;
+    color: grey;
+    animation: opa 4s;
+}
+
+.stud2btn:hover {
+    color: white;
+}
+
+.study3tl {
+    text-align: center;
+    animation: opa 2s;
+    color: yellow;
+    text-shadow: 0 0 6px yellow ;
+}
+
+.studydesc7 {
+    text-align: center;
+    animation: opa 3s;
+    color: yellow;
+        text-shadow: 0 0 6px yellow ;
+}
+
+.studydesc8 {
+    text-align: center;
+    animation: opa 3s;
+    color: yellow;
+        text-shadow: 0 0 6px yellow ;
+}
+
+.studydesc9 {
+    text-align: center;
+    animation: opa 3s;
+    color: white;
+}
+
+.studyC {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    animation: opa 1s, shaku 0.1s 6;
+}
+
+.stud3btn {
+    text-align: center;
+    color: grey;
+    animation: opa 4s;
+}
+
+.stud3btn:hover {
+    color: rgb(65, 255, 65);
+    text-shadow: 0 0 6px;
+}
+
+/* good ending */
+
+@keyframes rgb {
+    0% {background-position: 0% 50%;}
+    100% {background-position: 100% 50%;}
+}
+
+.endings {
+    font-family: UT;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 25%;
+    background: linear-gradient(to right, red, orange, yellow, green, blue);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rgb 1s ease-in-out infinite alternate;
+}
+
+.endingstl {
+    font-family: PO;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -2.5%;
+    background: linear-gradient(to right, red, orange, yellow, green, blue);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rgb 1s ease-in-out infinite alternate;
+}
